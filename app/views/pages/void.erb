@@ -1,0 +1,9 @@
+<h1 class="customtitle">custom.com</h1>
+<p>Como molan los assets tio.</p>
+
+<%= image_tag 'gif/tenor.gif', size: "300x300" %> <!--forma 1, es su su propio helper-->
+<img src="<%= asset_path 'gif/tenor.gif'%>" alt="poto" width="300"> <!--forma 2, solo trae enlace-->
+
+<p>
+    <%= asset_path 'gif/tenor.gif'%>
+</p>

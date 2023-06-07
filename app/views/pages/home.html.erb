@@ -1,0 +1,40 @@
+<h1 class="customtitle display-3 fw-bold">Mi portafolio</h1>
+
+<p class="fs-6 fst-italic customtitle">Disponibilidad inmediata canal 13.</p class="fs-5 fs-italic">
+<hr>
+<!--forma 1, es su su propio helper-->
+
+<div class="card mb-5 w-50">
+    <div class="row">
+        <div class="col-md-4">
+            <%= image_tag 'profile.png', class:"profile_img" %>
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">Erick Rivera</h5>
+                <p class="card-text"><small class="text-muted">Diseñador Multimedia</small></p>
+                <p class="card-text">Aquí texto sobre trayectoria y carrera yadda yadda yadda.</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card text-white text-custom">
+    <%= image_tag 'img1.png', class:"card-img" %>
+    <div class="card-img-overlay">
+        <div class="pe-3">
+            <div class="row justify-content-end">
+                <h5 class="card-title display-4 text-end fw-bold">Trabajos <br> recientes</h5>
+                <p class="card-text col-3 text-end">
+                    Hacer clic aquí para conocer mis trabajos más recientes.
+                </p>
+            </div>
+            <p class="card-text pt-3 text-end"><small>Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- <p><%= asset_path 'img1.png'%></p> -->

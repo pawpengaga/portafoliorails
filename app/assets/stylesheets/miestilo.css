@@ -1,0 +1,28 @@
+/*Estos archivos se llaman en orden alfabetico*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.customtitle{
+    color:pink;
+}
+
+.bg-custom {
+    background-color: rgb(36, 36, 36);
+}
+#bottom-footer{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+img{
+    text-align: center;
+}
+
+.profile_img {
+    width: 200px;
+    height: 200px;
+}
+
+.text-custom{
+    text-shadow: 5px 4px 10px rgb(0 0 0 / 45%);
+}
